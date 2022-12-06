@@ -3,13 +3,13 @@
 This is a discord bot built with discord.py. To offer new cogs, or changes to the bot.py file, please initiate a pull request!
 
 Requirments:
-python 3
+python 3.11
 discord.py version 2.1.0
 python-dotenv 0.21.0
 
 Installation for Python 3:
 
-https://www.geeksforgeeks.org/how-to-install-python-on-windows/
+https://www.python.org/downloads/
 
 In the project folder:
 
