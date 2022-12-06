@@ -16,7 +16,7 @@ load_dotenv(env_path)
 
 #get bot token from envroment
 token = str(os.getenv("TOKEN"))
-d
+
 #location of cog classes
 cogs_dir = './cogs/'
 
@@ -50,7 +50,7 @@ async def main():
         await bot.start(token)
         
     except discord.HTTPException as ex:
-        #fa
+        
         print("Unauthorized! Check your Token.")
 
 
