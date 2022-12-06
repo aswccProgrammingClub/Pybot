@@ -34,7 +34,7 @@ After activating enviroment, command line should show (venv) at the start of the
 
 Enter:
 
-    pip install discord.py python-dotenv
+    pip install discord.py[voice]==2.1.0 python-dotenv==0.21.0
 
 For development testing:
 
