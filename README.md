@@ -45,4 +45,6 @@ https://discord.com/login?redirect_to=%2Fdevelopers
 To Run:
 
   While the enviroment is activated, type python bot.py to start and ctrl + c to stop
+  
+  test
 
