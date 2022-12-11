@@ -1,20 +1,22 @@
 from discord.ext import commands
 
 class YourClassName(commands.Cog):
-    #executes with class is initialized
+    #executes whenclass is initialized
     def __init__(self, bot):
         self.bot = bot
 
+    #executes when cog has been loaded
     @commands.Cog.listener()
     async def on_ready(self):
-       await print("Binary Conversion Online")
+       await print("MyClassName Ready")
 
-   
-    # takes a number as an argument and sends a message back with the number in binary
+    #send $hello_world in a private message to bot to call method
     @commands.command()
-    async def hello_world(self, ctx, string:str):
+    async def hello_world(self, ctx):
         await print("Hello, world!")
 
+#called when this file is passed to load_extenction
 async def setup(bot):
     await bot.add_cog(YourClassName(bot))        
+          
      
